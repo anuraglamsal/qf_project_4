@@ -26,15 +26,15 @@ The data for faces is in att_faces directory and we also use non face images to 
 The notebook 'eigenfaces.ipynb' consists of the code for visualization and analysis of eigenfaces, reconstruction, and recognition/classification via LDA.
 The key cells of this notebook are:
 
-1.) Cell 2 imports face and non-face images. <br>
-2.) Cell 3 performs mean centering and visualizes the "mean face". <br>
-3.) Cell 4 performs SVD to get the eigenfaces and their corresponding eigenvalues. <br>
-4.) Cell 5 visualizes the first 10 eigenfaces and Cell 6 plots Variance Explained against the number of principal components. <br>
-5.) Cell 7 does reconstruction on 80 randomly picked face images (with numpy seed 7) and plots MSE for reconstruction against number of principal components.
-    It also visualizes reconstruction for a random image for 1, 10, 100, 111, and 400 principal components used. <br>
-6.) Cell 8 does the train and test split and cell 9 consists of code for Linear Discriminant Analysis (LDA). Read the report for more details on the splits. <br>
-7.) Cell 10 and 11 are codes for recognition and classification respectively, with numpy seed 7 for reproducibility. We vary number of principal components
-    used from 1 to 50, and perform 10 random-split trials for each, and calculate average accuracy and standard deviation. <br>
+- Cell 2 imports face and non-face images. 
+- Cell 3 performs mean centering and visualizes the "mean face". 
+- Cell 4 performs SVD to get the eigenfaces and their corresponding eigenvalues. 
+- Cell 5 visualizes the first 10 eigenfaces and Cell 6 plots Variance Explained against the number of principal components. 
+- Cell 7 does reconstruction on 80 randomly picked face images (with numpy seed 7) and plots MSE for reconstruction against number of principal components.
+    It also visualizes reconstruction for a random image for 1, 10, 100, 111, and 400 principal components used. 
+- Cell 8 does the train and test split and cell 9 consists of code for Linear Discriminant Analysis (LDA). Read the report for more details on the splits. 
+- Cell 10 and 11 are codes for recognition and classification respectively, with numpy seed 7 for reproducibility. We vary number of principal components
+    used from 1 to 50, and perform 10 random-split trials for each, and calculate average accuracy and standard deviation. 
 
 The reader should be able to run the cells in this notebook and reproduce the results reported on the project report. 
 
